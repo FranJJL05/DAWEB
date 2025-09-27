@@ -12,7 +12,7 @@ La documentación es esencial, no solo para los usuarios finales (documentación
 
 ---
 
-## 1. Python: Usando Docstrings y Formato Google 🐍
+## 1. Python: Usando Docstrings y Formato Google
 
 En **Python**, la documentación se incluye en una cadena de texto de triple comilla (`"""Docstring"""`) justo después de la definición de la función o clase.
 
@@ -20,11 +20,11 @@ En **Python**, la documentación se incluye en una cadena de texto de triple com
 Se utiliza el formato **Google** o **reStructuredText** (compatible con **Sphinx**).  
 Aquí nos enfocamos en la estructura básica de Google:
 
-| Etiqueta   | Propósito                                    |
-|------------|----------------------------------------------|
-| **Resumen** | Qué hace la función (una línea).             |
-| **Args:**   | Lista los parámetros y sus tipos.            |
-| **Returns:**| Describe el valor de retorno y su tipo.      |
+| Etiqueta     | Propósito                               |
+| ------------ | --------------------------------------- |
+| **Resumen**  | Qué hace la función (una línea).        |
+| **Args:**    | Lista los parámetros y sus tipos.       |
+| **Returns:** | Describe el valor de retorno y su tipo. |
 
 # Documentación de Código en Entornos de Desarrollo Web (Python, JavaScript, PHP)
 
@@ -41,7 +41,7 @@ Utilizamos comentarios estructurados y convenciones específicas por lenguaje pa
 
 ---
 
-## 1. Python: Usando Docstrings y Formato Google 🐍
+## 1. Python: Usando Docstrings y Formato Google
 
 En **Python**, la documentación se incluye en una cadena de texto de triple comilla (`"""Docstring"""`) justo después de la definición de la función o clase.
 
@@ -49,13 +49,13 @@ En **Python**, la documentación se incluye en una cadena de texto de triple com
 Se utiliza el formato **Google** o **reStructuredText** (compatible con **Sphinx**).  
 Aquí nos enfocamos en la estructura básica de Google:
 
-| Etiqueta   | Propósito                                    |
-|------------|----------------------------------------------|
-| **Resumen** | Qué hace la función (una línea).             |
-| **Args:**   | Lista los parámetros y sus tipos.            |
-| **Returns:**| Describe el valor de retorno y su tipo.      |
+| Etiqueta     | Propósito                               |
+| ------------ | --------------------------------------- |
+| **Resumen**  | Qué hace la función (una línea).        |
+| **Args:**    | Lista los parámetros y sus tipos.       |
+| **Returns:** | Describe el valor de retorno y su tipo. |
 
-### Ejemplo Simplificado
+### Ejemplo Simple
 
 ```python
 def sumar(a, b):
@@ -70,6 +70,7 @@ def sumar(a, b):
         int: La suma total de los dos números.
     """
     return a + b
+```
 
 ## 2. JavaScript: Usando JSDoc
 
@@ -82,7 +83,20 @@ Esto es vital para **simular el tipado** y mejorar la inteligencia de los **IDEs
 ### Convención
 **JSDoc** es el estándar de facto.
 
-| Etiqueta            | Propósito                                 |
-|---------------------|-------------------------------------------|
-| `@param {tipo} n`   | Describe un parámetro y su tipo.          |
-| `@returns {tipo}`   | Describe el valor de retorno.             |
+| Etiqueta          | Propósito                        |
+| ----------------- | -------------------------------- |
+| `@param {tipo} n` | Describe un parámetro y su tipo. |
+| `@returns {tipo}` | Describe el valor de retorno.    |
+
+### Ejemplo Simple
+
+```javascript
+/**
+ * Crea un saludo personalizado.
+ * @param {string} nombre El nombre de la persona a saludar.
+ * @returns {string} El mensaje de saludo completo.
+ */
+function crearSaludo(nombre) {
+    return `¡Hola, ${nombre}!`;
+}
+```
