@@ -121,3 +121,24 @@ El estándar está definido por la **PSR-5**.
 | `@return tipo`       | Describe el valor de retorno.              |
 
 ---
+
+
+---
+
+### Ejemplo Simple
+
+```php
+class Calculadora{
+    /**
+     * Multiplica dos números.
+     *
+     * @param float $num1 El primer factor.
+     * @param float $num2 El segundo factor.
+     * @return float El producto total.
+     */
+    public function multiplicar(float $num1, float $num2): float
+    {
+        return $num1 * $num2;
+    }
+}
+```
