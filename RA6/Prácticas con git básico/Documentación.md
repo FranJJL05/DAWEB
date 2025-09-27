@@ -88,6 +88,8 @@ Esto es vital para **simular el tipado** y mejorar la inteligencia de los **IDEs
 | `@param {tipo} n` | Describe un parámetro y su tipo. |
 | `@returns {tipo}` | Describe el valor de retorno.    |
 
+---
+
 ### Ejemplo Simple
 
 ```javascript
@@ -100,3 +102,22 @@ function crearSaludo(nombre) {
     return `¡Hola, ${nombre}!`;
 }
 ```
+---
+
+## 3. PHP: Usando PHPDoc (PSR-5)
+
+En **PHP**, el estándar es **PHPDoc**, muy similar a **JSDoc**.  
+Se usa un comentario multilínea (`/** ... */`) y etiquetas.  
+Es fundamental para la **generación de documentación** con herramientas como **phpDocumentor**.
+
+---
+
+### Convención
+El estándar está definido por la **PSR-5**.
+
+| Etiqueta             | Propósito                                  |
+|----------------------|--------------------------------------------|
+| `@param tipo $nombre`| Describe un parámetro y su tipo.           |
+| `@return tipo`       | Describe el valor de retorno.              |
+
+---
