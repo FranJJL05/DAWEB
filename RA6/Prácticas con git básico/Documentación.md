@@ -1,6 +1,6 @@
 # Documentación de Código en Entornos de Desarrollo Web (Python, JavaScript, PHP)
 
-La documentación es esencial, no solo para los usuarios finales (documentación de API), sino sobre todo para los desarrolladores.
+La documentación es esencial, no solo para los usuarios finales, sino sobre todo para los desarrolladores.
 
 ---
 
