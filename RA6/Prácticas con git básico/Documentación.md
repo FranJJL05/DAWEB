@@ -26,35 +26,6 @@ Aquí nos enfocamos en la estructura básica de Google:
 | **Args:**    | Lista los parámetros y sus tipos.       |
 | **Returns:** | Describe el valor de retorno y su tipo. |
 
-# Documentación de Código en Entornos de Desarrollo Web (Python, JavaScript, PHP)
-
-La documentación es esencial, no solo para los usuarios finales (documentación de API), sino sobre todo para los desarrolladores (incluido tu yo futuro).  
-Utilizamos comentarios estructurados y convenciones específicas por lenguaje para permitir la **generación automática de documentación**.
-
----
-
-## Claves de una Buena Documentación
-
-- **Consistencia:** Usar siempre el mismo formato y estilo.  
-- **Claridad:** Explicar qué hace, qué espera (parámetros) y qué devuelve el elemento.  
-- **Ubicación:** Colocar el comentario inmediatamente antes o después de la definición del elemento que describe (función, clase, método, etc.).
-
----
-
-## 1. Python: Usando Docstrings y Formato Google
-
-En **Python**, la documentación se incluye en una cadena de texto de triple comilla (`"""Docstring"""`) justo después de la definición de la función o clase.
-
-### Convención (Formato Google)
-Se utiliza el formato **Google** o **reStructuredText** (compatible con **Sphinx**).  
-Aquí nos enfocamos en la estructura básica de Google:
-
-| Etiqueta     | Propósito                               |
-| ------------ | --------------------------------------- |
-| **Resumen**  | Qué hace la función (una línea).        |
-| **Args:**    | Lista los parámetros y sus tipos.       |
-| **Returns:** | Describe el valor de retorno y su tipo. |
-
 ### Ejemplo Simple
 
 ```python
